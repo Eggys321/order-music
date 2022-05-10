@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,71 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(./Images/pattern-background-desktop.svg)  no-repeat rgb(215, 239, 249);
+  background-size: cover;
+
+}
+
+.main{
+  margin-top: 15vh;
+}
+
+.main img{
+  height: 35vh;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+/* Section1 */
+.section1{
+  background-color: rgb(246, 241, 241);
+  width: 33%;
+  margin: auto;
+  position: relative;
+  bottom: 5px;
+}
+
+/* Order Section */
+.order h2{
+  padding-top: 3rem;
+}
+
+/* Paragraph Section */
+
+.paragraph p{
+  width: 50%;
+  margin: auto;
+  color: rgb(130, 124, 124);
+  line-height: 1.7rem;
+  padding-top: 1rem;
+  font-size: 16px;
+}
+
+/* Flex Section */
+
+.flex{
+  background-color: rgb(221, 229, 232);
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.flex2{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex3{
+  display: flex;
+}
+.flex4{
+  margin-left: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
